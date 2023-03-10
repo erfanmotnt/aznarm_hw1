@@ -17,17 +17,17 @@ def correct_division2(a, b):
 	return a // b
 	
 def calculator(a, b, action):
-	if action is 'sum2':
+	if action == 'sum2':
 		return sum2(a, b)
-	elif action is 'minus2':
+	elif action == 'minus2':
 		return minus2(a, b)
-	elif action is 'multiply2':
+	elif action == 'multiply2':
 		return multiply2(a, b)
-	elif action is 'division2':
+	elif action == 'division2':
 		return division2(a, b)
-	elif action is 'cdivision2':
+	elif action == 'cdivision2':
 		return correct_division2(a, b)
-	elif action is 'remaining':
+	elif action == 'remaining':
 		return remaining(a, b)
 	else:
 		raise 'Error: bad request'
