@@ -25,6 +25,8 @@ def calculator(a, b, action):
 		return multiply2(a, b)
 	elif action is 'division2':
 		return division2(a, b)
+	elif action is 'cdivision2':
+		return correct_division2(a, b)
 	elif action is 'remaining':
 		return remaining(a, b)
 	else:
