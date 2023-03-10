@@ -10,3 +10,5 @@ def multiply2(a, b):
 def division2(a, b):
 	return a / b
 
+def remaining(a, b):
+	return a % b
