@@ -13,6 +13,9 @@ def division2(a, b):
 def remaining(a, b):
 	return a % b
 
+def correct_division2(a, b):
+	return a // b
+	
 def calculator(a, b, action):
 	if action is 'sum2':
 		return sum2(a, b)
