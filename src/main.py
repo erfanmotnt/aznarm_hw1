@@ -7,4 +7,3 @@ if __name__ == '__main__':
 		a, b = int(a), int(b)
 		print(calculator(a, b, action))
 		inp = input("enter action:")
-
